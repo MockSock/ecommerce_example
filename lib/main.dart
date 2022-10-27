@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 // To Do List
 
-// Set up project structure
+// Create login
 // Create dummy data
 // sort out UI
 
