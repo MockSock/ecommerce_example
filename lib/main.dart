@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+// To Do List
+
+// Set up project structure
+// Create dummy data
+// sort out UI
+
 void main() {
   runApp(const MyApp());
 }
@@ -38,9 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-
-          ],
+          children: <Widget>[],
         ),
       ),
     );
