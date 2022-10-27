@@ -3,6 +3,8 @@ import 'dart:html';
 import 'package:flutter/cupertino.dart';
 
 class LoginPage extends StatefulWidget {
+  const LoginPage({super.key});
+
   @override
   State<LoginPage> createState() => _LoginPageState();
 }
