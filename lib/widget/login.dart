@@ -36,7 +36,21 @@ class LoginPage extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
-                children: <Widget>[],
+                children: <Widget>[
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(20),
+                      color: Colors.grey.shade600,
+                      boxShadow: const [
+                        BoxShadow(
+                          blurRadius: 8,
+                          color: Colors.black,
+                          offset: Offset(0, 2),
+                        )
+                      ],
+                    ),
+                  ),
+                ],
               ),
             ),
           ),
