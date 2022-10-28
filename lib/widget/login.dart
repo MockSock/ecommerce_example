@@ -1,17 +1,15 @@
-import 'dart:html';
+import 'package:flutter/material.dart';
 
-import 'package:flutter/cupertino.dart';
-
-class LoginPage extends StatefulWidget {
+class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
 
   @override
-  State<LoginPage> createState() => _LoginPageState();
-}
-
-class _LoginPageState extends State<LoginPage> {
-  @override
   Widget build(BuildContext context) {
-    return const Text('I work!');
+    return Container(
+      alignment: Alignment.center,
+      padding: const EdgeInsets.all(12.0),
+      margin: const EdgeInsets.all(8.0),
+      child: const Text('Test 123'),
+    );
   }
 }
