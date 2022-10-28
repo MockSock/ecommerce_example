@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+enum authMode { LOGIN, SIGNUP }
+
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
 
