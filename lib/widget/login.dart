@@ -26,7 +26,18 @@ class LoginPage extends StatelessWidget {
                 stops: [0, 1],
               ),
             ),
-          )
+          ),
+          SingleChildScrollView(
+            child: Container(
+              height: deviceSize.height,
+              width: deviceSize.width,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: <Widget>[],
+              ),
+            ),
+          ),
         ],
       ),
     );
