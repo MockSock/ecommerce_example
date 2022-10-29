@@ -12,6 +12,8 @@ class _AuthFormState extends State<AuthForm> {
   final GlobalKey<FormState> _formKey = GlobalKey();
   authMode _authMode = authMode.LOGIN;
   bool isLoading = false;
+  Map<String, String> _authData = {'username': '', 'password': ''};
+  final _passwordController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
