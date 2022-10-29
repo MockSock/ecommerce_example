@@ -49,7 +49,15 @@ class LoginPage extends StatelessWidget {
                         )
                       ],
                     ),
+                    child: Text(
+                      "My Shop",
+                      style: TextStyle(
+                        fontSize: 50,
+                        // Add a new text family later
+                      ),
+                    ),
                   ),
+                  AuthForm(),
                 ],
               ),
             ),
@@ -59,3 +67,5 @@ class LoginPage extends StatelessWidget {
     );
   }
 }
+
+class AuthForm extends StatefulWidget {}
