@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './model/product.dart';
 
 // To Do List
 
@@ -34,6 +35,16 @@ class DashBoard extends StatefulWidget {
 }
 
 class _DashBoardState extends State<DashBoard> {
+  final List<Product> _products = [
+    Product(
+      id: 's331t',
+      price: 59.99,
+      title: '',
+      description:
+          "A soft, smooth ride over the water is a promise when you rent this boat for a day.",
+      status: "Rent",
+    ),
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
