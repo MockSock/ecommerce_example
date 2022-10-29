@@ -43,7 +43,7 @@ class _DashBoardState extends State<DashBoard> {
       ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[],
         ),
       ),
