@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 // To Do List
 
-// Set up project structure
+// Create login
 // Create dummy data
 // sort out UI
 
@@ -20,21 +20,21 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.cyan,
       ),
-      home: const MyHomePage(title: "Cow Tales"),
+      home: const DashBoard(title: "Cow Tales"),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
+class DashBoard extends StatefulWidget {
+  const DashBoard({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<DashBoard> createState() => _DashBoardState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _DashBoardState extends State<DashBoard> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[],
         ),
       ),

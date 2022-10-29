@@ -3,8 +3,11 @@ class User {
     required this.adminPrivilege,
     required this.userName,
     required this.passWord,
+    required this.businessName,
   });
-  final userName;
-  final passWord;
-  final adminPrivilege;
+
+  final String userName;
+  final String passWord;
+  final bool adminPrivilege;
+  final String businessName;
 }
