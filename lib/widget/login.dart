@@ -67,5 +67,3 @@ class LoginPage extends StatelessWidget {
     );
   }
 }
-
-class AuthForm extends StatefulWidget {}
