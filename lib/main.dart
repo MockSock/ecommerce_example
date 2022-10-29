@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 // To Do List
 
-// Create login
 // Create dummy data
 // sort out UI
 
@@ -40,6 +39,7 @@ class _DashBoardState extends State<DashBoard> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
+        // Put cart icon up here
       ),
       body: Center(
         child: Column(
